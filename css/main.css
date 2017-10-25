@@ -1,3 +1,175 @@
 /*
  * Estilos de tu proyecto
+font-family: 'Montserrat', sans-serif;
+Botones, hover: #FF00BF
+Fondo de footer: #333447
+Título del formulario: #352384
+Texto del formulario: #728099
+Gradiente morado: linear-gradient(#76278F, #2B1E66);
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
  */
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(../assets/images/hero.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 0;	
+}
+
+header img{
+	width: 5%;
+	height: auto;
+	padding: 20px;
+	padding-left: 100px;
+}
+
+ul{
+	float: right;
+	padding-right: 105px;
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 60px;
+	font-size: 18px;
+}
+
+.boton{
+	background-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#window{
+	background-color: #fff;
+	width: 400px;
+	height: 250px;
+	float: right;
+	padding: 50px;
+}
+
+#window{
+	color:  #728099;
+}
+
+#window h1{
+	color: #352384;
+	margin: 0;
+}
+
+#window input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid #CABFB6;
+    width: 400px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.boton2{
+	font-family: 'Montserrat', sans-serif;
+	background: #FF00BF;
+	font-size: 13px;
+	color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#window a{
+	padding-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color:  #728099;
+}
+
+#window .end{
+	font-size: 13px;
+}
+
+#part1{
+	background: linear-gradient(#76278F, #2B1E66);
+	color: #fff;
+	margin-top: 500px;
+	position: absolute;
+	width: 100%;
+}
+
+#part1 .prueba{
+	display: inline-block;
+	padding: 30px;
+}
+
+#part1 img{
+	width: 30%;
+	float: right;
+	padding: 30px;
+}
+
+#part2{
+	width: 100%;
+	position: absolute;
+	margin-top: 982px;
+	display: inline-block;
+}
+
+.textvideo2{
+	width: 300px;
+	display: inline-block;
+}
+.video2{
+	float: right;
+}
+#part3{
+	width: 100%;
+	position: absolute;
+	margin-top: 1432px;
+	float: right;
+	border: 1px solid red;
+}
+
+.video3{
+	display: inline-block;
+}
+
+.textvideo3{
+	width: 300px;
+	display: inline-block;
+}
+
+#part4{
+	width: 100%;
+	position: absolute;
+	margin-top: 1904px;
+	display: inline-block;
+}
+
+.textvideo4{
+	width: 300px;
+	display: inline-block;
+}
+
+.video4{
+	float: right;
+}
