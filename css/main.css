@@ -154,29 +154,28 @@ li{
 .video2{
 	float: right;
 }
+
 #part3{
 	width: 100%;
 	position: absolute;
 	margin-top: 1482px;
 }
 
-.video3{
-	display: inline-block;
-}
-
 .textvideo3{
 	width: 300px;
-	display: inline-block;
 	color: #333447;
-}
-
-.textvideo3 h5{
-	margin: 0;
+	float: right;
+	padding-right: 70px;
+	padding-top: 120px;
 }
 
 .textvideo3 h3{
 	font-size: 30px;
 	margin-top: 0;
+}
+
+.textvideo3 h5{
+	margin: 0;
 }
 
 #part4{
@@ -213,13 +212,67 @@ footer{
 	margin-top: 2482px;
 	width: 100%;
 	color: #fff;
-	height: 450px;
+	height: 500px;
 }
 
-footer img{
-	width: 10%;
+.column{
+	display: inline-block;
+	list-style: none;
+	margin-bottom: 40px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.column a{
+	color: #fff;
+	display: list-item;
+	text-decoration: none;
+	margin-top: 30px; 
+	font-size: 15px;
+}
+
+.column a:hover{
+	color: #FF00BF;
+	border-bottom: 1px solid #FF00BF;
+}
+.column a h3{
+	margin: 0px;
+}
+
+.buttons img{
+	width: 100%;
 	border: 1px solid #fff;
 	border-radius: 10px;
+	display: list-item;
+	margin-top: 20px;
+}
+
+.buttons{
 	float: right;
-	display: inline-block;
+	margin: 0;
+	width: 130px;
+	padding-top: 50px;
+	padding-right: 250px;
+}
+
+footer .end{
+	text-align: center;
+	margin: 40px;
+}
+
+.end .icons{
+  color: white;
+  font-size: 16px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 7px;
+}
+
+.end hr{
+	border-bottom: 1px solid #fff;
+	width: 850px;
+}
+
+.end .lyft{
+	margin-top: 40px;
 }
