@@ -6,19 +6,8 @@ Fondo de footer: #333447
 Título del formulario: #352384
 Texto del formulario: #728099
 Gradiente morado: linear-gradient(#76278F, #2B1E66);
-.icon-facebook2:before {
-  content: "\ea91";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
- */
-
-
-body{
+*/
+body{ /*Estilos de mi página*/
 	padding: 0;
 	margin: 0;
 	background-image: url(../assets/images/hero.gif);
@@ -27,7 +16,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
-header{
+header{ /* Propiedades de la  parte superior*/
 	width: 100%;
 	height: 100px;
 	color: #fff;
@@ -35,26 +24,26 @@ header{
 	padding-bottom: 0;	
 }
 
-header img{
+header img{ /*Propiedades del logo superior izquierdo*/
 	width: 5%;
 	height: auto;
 	padding: 20px;
 	padding-left: 100px;
 }
 
-ul{
+ul{ /*Propiedades de la lista vertical y boton lateral decho superior*/
 	float: right;
 	padding-right: 105px;
 }
 
-li{
+li{ 
 	display: inline-block;
 	list-style: none;
 	padding-right: 60px;
 	font-size: 18px;
 }
 
-.boton{
+.boton{ 
 	background-color: transparent;
 	color: #fff;
 	font-size: 20px;
@@ -62,24 +51,21 @@ li{
 	border-radius: 10px;
 }
 
-#window{
+#window{ /*Propiedades de ventana lateral decha*/
 	background-color: #fff;
 	width: 400px;
 	height: 250px;
 	float: right;
 	padding: 50px;
-}
-
-#window{
 	color:  #728099;
 }
 
-#window h1{
+#window h1{ /*Estilos título ventana lateral derecha*/
 	color: #352384;
 	margin: 0;
 }
 
-#window input{
+#window input{ /*Propiedades formulario*/
     display: block;
     border: none;
     border-bottom: 1px solid #CABFB6;
@@ -88,7 +74,7 @@ li{
     font-size: 12px;
 }
 
-.boton2{
+.boton2{ /*Propiedades botón*/
 	font-family: 'Montserrat', sans-serif;
 	background: #FF00BF;
 	font-size: 13px;
@@ -98,43 +84,51 @@ li{
 	margin-top: 20px;
 }
 
-#window a{
+#window a{ /*Propiedades anchor*/
 	padding-left: 15px;
 	font-family: 'Montserrat', sans-serif;
 	color:  #728099;
 }
 
-#window .end{
+#window .end{ /*Propiedades texto ventana*/
 	font-size: 13px;
 }
 
-#part1{
+#part1{ /*Estilos segunda sección, Iphone*/
 	background: linear-gradient(#76278F, #2B1E66);
 	color: #fff;
 	margin-top: 500px;
 	position: absolute;
 	width: 100%;
+	height: 600px;
 }
 
-#part1 .prueba{
+#part1 .text1{ /*Propiedades texto al lado izquierdo del Iphone*/
 	display: inline-block;
-	padding: 30px;
+	padding-left: 160px;
 }
 
-#part1 img{
-	width: 30%;
+.text1 h2{
+	padding-top: 50px;
+	font-size: 29px;
+}
+
+#part1 img{ /*Propiedades Iphone*/
+	width: 38%;
 	float: right;
-	padding: 30px;
+	padding: 60px;
+	margin-right: 100px;
 }
 
-#part2{
+#part2{ /*Estilos tercera sección, primer video de youtuve*/
 	width: 100%;
 	position: absolute;
-	margin-top: 982px;
+	margin-top: 1100px;
 	display: inline-block;
+	height: 600px;
 }
 
-.textvideo2{
+.textvideo2{ /*Propiedades texto costado izquierdo de video youtube*/
 	width: 300px;
 	display: inline-block;
 	color: #333447;
@@ -151,17 +145,17 @@ li{
 	margin: 0;
 }
 
-.video2{
+.video2{ /*propiedaes video youtube*/
 	float: right;
 }
 
-#part3{
+#part3{ /*Estilos cuarta sección, segundo video youtube*/
 	width: 100%;
 	position: absolute;
-	margin-top: 1482px;
+	margin-top: 1600px;
 }
 
-.textvideo3{
+.textvideo3{ /*Propiedades texto costado derecho de video youtube*/
 	width: 300px;
 	color: #333447;
 	float: right;
@@ -178,14 +172,14 @@ li{
 	margin: 0;
 }
 
-#part4{
+#part4{ /*Estilos quinta sección, tercer video youtube*/
 	width: 100%;
 	position: absolute;
-	margin-top: 1982px;
+	margin-top: 2100px;
 	display: inline-block;
 }
 
-.textvideo4{
+.textvideo4{ /*Propiedades texto al costado izquiero de video youtube*/
 	width: 300px;
 	display: inline-block;
 	color: #333447;
@@ -193,37 +187,37 @@ li{
 	padding-top: 120px;
 }
 
-.textvideo4 h5{
-	margin: 0;
-}
-
-.video4{
-	float: right;
-}
-
 .textvideo4 h3{
 	font-size: 30px;
 	margin-top: 0;
 }
 
-footer{
-	background-color:  #333447;
-	position: absolute;
-	margin-top: 2482px;
-	width: 100%;
-	color: #fff;
-	height: 500px;
+.textvideo4 h5{ 
+	margin: 0;
 }
 
-.column{
+.video4{ /*Propiedades  tercer video youtube*/
+	float: right;
+}
+
+footer{ /*Estilos pie de página, sexta sección*/
+	background-color:  #333447;
+	position: absolute;
+	margin-top: 2600px;
+	width: 100%;
+	color: #fff;
+	height: 580px;
+}
+
+.column{ /*Propiedades columnas*/
 	display: inline-block;
 	list-style: none;
 	margin-bottom: 40px;
-	margin-left: 100px;
+	margin-left: 150px;
 	margin-top: 50px;
 }
 
-.column a{
+.column a{ /*Propiedades anchor*/
 	color: #fff;
 	display: list-item;
 	text-decoration: none;
@@ -231,7 +225,7 @@ footer{
 	font-size: 15px;
 }
 
-.column a:hover{
+.column a:hover{ /*Propiedades de anchor al poner el cursor sobre él*/
 	color: #FF00BF;
 	border-bottom: 1px solid #FF00BF;
 }
@@ -239,7 +233,7 @@ footer{
 	margin: 0px;
 }
 
-.buttons img{
+.buttons img{ /*propiedades imagenes costado derecho*/
 	width: 100%;
 	border: 1px solid #fff;
 	border-radius: 10px;
@@ -255,20 +249,24 @@ footer{
 	padding-right: 250px;
 }
 
-footer .end{
+footer .end{ /*Propiedades parte final del pie de página*/
 	text-align: center;
 	margin: 40px;
 }
 
-.end .icons{
+.icon-facebook2, .icon-instagram, .icon-twitter{
   color: white;
   font-size: 16px;
   border: 1px solid #fff;
-  border-radius: 100px;
-  padding: 7px;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 30px;
 }
 
-.end hr{
+.iconsborder{ /*Espacio entre los íconos y la línea*/
+	padding: 30px;
+}
+.end hr{ /*Línea entre iconos y texto*/
 	border-bottom: 1px solid #fff;
 	width: 850px;
 }
@@ -276,3 +274,4 @@ footer .end{
 .end .lyft{
 	margin-top: 40px;
 }
+
